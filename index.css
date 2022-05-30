@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar{
+    padding: 10px 50px;
+    margin-top: 15px;
+}
+img{
+    width: 100px;
+    height: 50px;
+}
+
+.nav-items a{
+    margin-left: 50px;
+    font-size: 22px;
+    color: rgb(43, 42, 42);
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#form{
+    text-align: center;
+
+}
+
+#form p{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+#form input{
+    margin-bottom: 10px;
+    width: 30%;
+
+}
+
+#form button{
+background-color: rgb(241, 191, 15);
+color: rgb(43, 42, 42);
+
+}
+
+.premium, .shipping, .quality{
+    display: flex;
+ 
+   
+}
+
+.content-1, .content-2, .content-3{
+    flex: 8;
+}
+.icon-1, .icon-2, .icon-3{
+    flex: 1;
+    align-self: center;
+    font-size: 48px;
+    color: rgb(241, 191, 15);
+}
+
+.content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.video-content iframe{
+    margin-left: 170px;
+    margin-bottom: 50px;
+    
+}
+
+
+.card-body{
+    text-align: center;
+}
+
+
+.card-btn{
+    background-color: rgb(241, 191, 15);
+    padding: 5px;
+}
+
+.card-header{
+    background-color:rgb(221, 221, 221) ;
+    text-align: center;
+}
